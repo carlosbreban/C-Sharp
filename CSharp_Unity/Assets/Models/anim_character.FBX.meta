@@ -1,0 +1,2673 @@
+fileFormatVersion: 2
+guid: 54e1ff046550e4d48af2911cc5f1c8ef
+timeCreated: 1520185922
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: brow_lt_in_bn
+    100004: brow_lt_in_ph
+    100006: brow_lt_out_bn
+    100008: brow_lt_out_ph
+    100010: brow_rt_in_bn
+    100012: brow_rt_in_ph
+    100014: brow_rt_out_bn
+    100016: brow_rt_out_ph
+    100018: bubba_body_mesh
+    100020: bubba_eyes_mesh
+    100022: Bubba_RIG_ Footsteps
+    100024: Bubba_RIG_ Head
+    100026: Bubba_RIG_ HeadNub
+    100028: Bubba_RIG_ L Calf
+    100030: Bubba_RIG_ L Clavicle
+    100032: Bubba_RIG_ L Finger0
+    100034: Bubba_RIG_ L Finger01
+    100036: Bubba_RIG_ L Finger02
+    100038: Bubba_RIG_ L Finger0Nub
+    100040: Bubba_RIG_ L Finger1
+    100042: Bubba_RIG_ L Finger11
+    100044: Bubba_RIG_ L Finger12
+    100046: Bubba_RIG_ L Finger1Nub
+    100048: Bubba_RIG_ L Finger2
+    100050: Bubba_RIG_ L Finger21
+    100052: Bubba_RIG_ L Finger22
+    100054: Bubba_RIG_ L Finger2Nub
+    100056: Bubba_RIG_ L Finger3
+    100058: Bubba_RIG_ L Finger31
+    100060: Bubba_RIG_ L Finger32
+    100062: Bubba_RIG_ L Finger3Nub
+    100064: Bubba_RIG_ L Finger4
+    100066: Bubba_RIG_ L Finger41
+    100068: Bubba_RIG_ L Finger42
+    100070: Bubba_RIG_ L Finger4Nub
+    100072: Bubba_RIG_ L Foot
+    100074: Bubba_RIG_ L Forearm
+    100076: Bubba_RIG_ L ForeTwist
+    100078: Bubba_RIG_ L ForeTwist1
+    100080: Bubba_RIG_ L Hand
+    100082: Bubba_RIG_ L Thigh
+    100084: Bubba_RIG_ L Toe0
+    100086: Bubba_RIG_ L Toe0Nub
+    100088: Bubba_RIG_ L UpperArm
+    100090: Bubba_RIG_ Neck
+    100092: Bubba_RIG_ Pelvis
+    100094: Bubba_RIG_ R Calf
+    100096: Bubba_RIG_ R Clavicle
+    100098: Bubba_RIG_ R Finger0
+    100100: Bubba_RIG_ R Finger01
+    100102: Bubba_RIG_ R Finger02
+    100104: Bubba_RIG_ R Finger0Nub
+    100106: Bubba_RIG_ R Finger1
+    100108: Bubba_RIG_ R Finger11
+    100110: Bubba_RIG_ R Finger12
+    100112: Bubba_RIG_ R Finger1Nub
+    100114: Bubba_RIG_ R Finger2
+    100116: Bubba_RIG_ R Finger21
+    100118: Bubba_RIG_ R Finger22
+    100120: Bubba_RIG_ R Finger2Nub
+    100122: Bubba_RIG_ R Finger3
+    100124: Bubba_RIG_ R Finger31
+    100126: Bubba_RIG_ R Finger32
+    100128: Bubba_RIG_ R Finger3Nub
+    100130: Bubba_RIG_ R Finger4
+    100132: Bubba_RIG_ R Finger41
+    100134: Bubba_RIG_ R Finger42
+    100136: Bubba_RIG_ R Finger4Nub
+    100138: Bubba_RIG_ R Foot
+    100140: Bubba_RIG_ R Forearm
+    100142: Bubba_RIG_ R ForeTwist
+    100144: Bubba_RIG_ R ForeTwist1
+    100146: Bubba_RIG_ R Hand
+    100148: Bubba_RIG_ R Thigh
+    100150: Bubba_RIG_ R Toe0
+    100152: Bubba_RIG_ R Toe0Nub
+    100154: Bubba_RIG_ R UpperArm
+    100156: Bubba_RIG_ Spine
+    100158: Bubba_RIG_ Spine1
+    100160: Bubba_RIG_ Spine2
+    100162: Bubba_RIG_ Spine3
+    100164: Bubba_RIG_Belly
+    100166: Bubba_RIG_BellyNub
+    100168: Bubba_RIG_eye_lt_lookat
+    100170: Bubba_RIG_eye_lt_target
+    100172: Bubba_RIG_eye_rt_lookat
+    100174: Bubba_RIG_eye_rt_target
+    100176: Bubba_RIG_eyes_center
+    100178: bubba_RIG_eyes_ctrl
+    100180: Bubba_RIG_eyes_mirror_read
+    100182: Bubba_RIG_HairBack1_Lt
+    100184: Bubba_RIG_HairBack1_Rt
+    100186: Bubba_RIG_HairBack2_Lt
+    100188: Bubba_RIG_HairBack2_Rt
+    100190: Bubba_RIG_HairFront1_Lt
+    100192: Bubba_RIG_HairFront1_Rt
+    100194: Bubba_RIG_HairFront2_Lt
+    100196: Bubba_RIG_HairFront2_Rt
+    100198: Bubba_RIG_mirror_MOVE
+    100200: Bubba_RIG_mirror_move_attach
+    100202: Bubba_RIG_MOVE
+    100204: Bubba_RIG_Root
+    100206: Bubba_RIG_Root Xtra01Nub
+    100208: Bubba_RIG_Root Xtra03Nub
+    100210: Bubba_RIG_Root Xtra04Nub
+    100212: Bubba_RIG_Root Xtra05Nub
+    100214: cheek_lt_bn
+    100216: cheek_lt_ph
+    100218: cheek_rt_bn
+    100220: cheek_rt_ph
+    100222: ctrls_pad_ph
+    100224: eye_lock_ph
+    100226: eye_lt_rotate_ph
+    100228: eye_rt_rotate_ph
+    100230: jaw_bn
+    100232: jaw_bn_end
+    100234: jaw_ctrl
+    100236: l_handnode
+    100238: lip_lt_bt_bn
+    100240: lip_lt_bt_ph
+    100242: lip_lt_corner_bn
+    100244: lip_lt_corner_ph
+    100246: lip_lt_up_bn
+    100248: lip_lt_up_ph
+    100250: lip_mid_bt_bn
+    100252: lip_mid_bt_ph
+    100254: lip_mid_up_bn
+    100256: lip_mid_up_ph
+    100258: lip_rt_bt_bn
+    100260: lip_rt_bt_ph
+    100262: lip_rt_corner_bn
+    100264: lip_rt_corner_ph
+    100266: lip_rt_up_bn
+    100268: lip_rt_up_ph
+    100270: lowerlid_lt_blink_ph
+    100272: lowerlid_lt_bn
+    100274: lowerlid_lt_bn_end
+    100276: lowerlid_lt_ph
+    100278: lowerlid_rt_blink_ph
+    100280: lowerlid_rt_bn
+    100282: lowerlid_rt_bn_end
+    100284: lowerlid_rt_ph
+    100286: mirror_rod_ctrl_attach_01
+    100288: mirror_rod_ctrl_attach_02
+    100290: mirror_rod_ctrl_attach_03
+    100292: mirror_rod_ctrl_attach_04
+    100294: mirror_rod_ctrl_attach_05
+    100296: mirror_rod_ctrl_attach_06
+    100298: mirror_rodbone_01
+    100300: mirror_rodbone_02
+    100302: mirror_rodbone_03
+    100304: mirror_rodbone_04
+    100306: mirror_rodbone_05
+    100308: nose_bn
+    100310: nose_ph
+    100312: p1_proprod_MESH
+    100314: p1_proprod_tn
+    100316: p1_rod_boat_attach
+    100318: Rod_Mesh
+    100320: rod_mirror_crtl_tn
+    100322: rod_mirror_ctrl_01
+    100324: rod_mirror_ctrl_02
+    100326: rod_mirror_ctrl_03
+    100328: rod_mirror_ctrl_04
+    100330: rod_mirror_ctrl_05
+    100332: rod_mirror_Mesh
+    100334: rod_mirror_tn
+    100336: Rod_tn
+    100338: rodbone01
+    100340: rodbone02
+    100342: rodbone03
+    100344: rodbone04
+    100346: rodbone05
+    100348: upperlid_lt_blink_ph
+    100350: upperlid_lt_bn
+    100352: upperlid_lt_bn_end
+    100354: upperlid_lt_ph
+    100356: upperlid_rt_blink_ph
+    100358: upperlid_rt_bn
+    100360: upperlid_rt_bn_end
+    100362: upperlid_rt_ph
+    400000: //RootNode
+    400002: brow_lt_in_bn
+    400004: brow_lt_in_ph
+    400006: brow_lt_out_bn
+    400008: brow_lt_out_ph
+    400010: brow_rt_in_bn
+    400012: brow_rt_in_ph
+    400014: brow_rt_out_bn
+    400016: brow_rt_out_ph
+    400018: bubba_body_mesh
+    400020: bubba_eyes_mesh
+    400022: Bubba_RIG_ Footsteps
+    400024: Bubba_RIG_ Head
+    400026: Bubba_RIG_ HeadNub
+    400028: Bubba_RIG_ L Calf
+    400030: Bubba_RIG_ L Clavicle
+    400032: Bubba_RIG_ L Finger0
+    400034: Bubba_RIG_ L Finger01
+    400036: Bubba_RIG_ L Finger02
+    400038: Bubba_RIG_ L Finger0Nub
+    400040: Bubba_RIG_ L Finger1
+    400042: Bubba_RIG_ L Finger11
+    400044: Bubba_RIG_ L Finger12
+    400046: Bubba_RIG_ L Finger1Nub
+    400048: Bubba_RIG_ L Finger2
+    400050: Bubba_RIG_ L Finger21
+    400052: Bubba_RIG_ L Finger22
+    400054: Bubba_RIG_ L Finger2Nub
+    400056: Bubba_RIG_ L Finger3
+    400058: Bubba_RIG_ L Finger31
+    400060: Bubba_RIG_ L Finger32
+    400062: Bubba_RIG_ L Finger3Nub
+    400064: Bubba_RIG_ L Finger4
+    400066: Bubba_RIG_ L Finger41
+    400068: Bubba_RIG_ L Finger42
+    400070: Bubba_RIG_ L Finger4Nub
+    400072: Bubba_RIG_ L Foot
+    400074: Bubba_RIG_ L Forearm
+    400076: Bubba_RIG_ L ForeTwist
+    400078: Bubba_RIG_ L ForeTwist1
+    400080: Bubba_RIG_ L Hand
+    400082: Bubba_RIG_ L Thigh
+    400084: Bubba_RIG_ L Toe0
+    400086: Bubba_RIG_ L Toe0Nub
+    400088: Bubba_RIG_ L UpperArm
+    400090: Bubba_RIG_ Neck
+    400092: Bubba_RIG_ Pelvis
+    400094: Bubba_RIG_ R Calf
+    400096: Bubba_RIG_ R Clavicle
+    400098: Bubba_RIG_ R Finger0
+    400100: Bubba_RIG_ R Finger01
+    400102: Bubba_RIG_ R Finger02
+    400104: Bubba_RIG_ R Finger0Nub
+    400106: Bubba_RIG_ R Finger1
+    400108: Bubba_RIG_ R Finger11
+    400110: Bubba_RIG_ R Finger12
+    400112: Bubba_RIG_ R Finger1Nub
+    400114: Bubba_RIG_ R Finger2
+    400116: Bubba_RIG_ R Finger21
+    400118: Bubba_RIG_ R Finger22
+    400120: Bubba_RIG_ R Finger2Nub
+    400122: Bubba_RIG_ R Finger3
+    400124: Bubba_RIG_ R Finger31
+    400126: Bubba_RIG_ R Finger32
+    400128: Bubba_RIG_ R Finger3Nub
+    400130: Bubba_RIG_ R Finger4
+    400132: Bubba_RIG_ R Finger41
+    400134: Bubba_RIG_ R Finger42
+    400136: Bubba_RIG_ R Finger4Nub
+    400138: Bubba_RIG_ R Foot
+    400140: Bubba_RIG_ R Forearm
+    400142: Bubba_RIG_ R ForeTwist
+    400144: Bubba_RIG_ R ForeTwist1
+    400146: Bubba_RIG_ R Hand
+    400148: Bubba_RIG_ R Thigh
+    400150: Bubba_RIG_ R Toe0
+    400152: Bubba_RIG_ R Toe0Nub
+    400154: Bubba_RIG_ R UpperArm
+    400156: Bubba_RIG_ Spine
+    400158: Bubba_RIG_ Spine1
+    400160: Bubba_RIG_ Spine2
+    400162: Bubba_RIG_ Spine3
+    400164: Bubba_RIG_Belly
+    400166: Bubba_RIG_BellyNub
+    400168: Bubba_RIG_eye_lt_lookat
+    400170: Bubba_RIG_eye_lt_target
+    400172: Bubba_RIG_eye_rt_lookat
+    400174: Bubba_RIG_eye_rt_target
+    400176: Bubba_RIG_eyes_center
+    400178: bubba_RIG_eyes_ctrl
+    400180: Bubba_RIG_eyes_mirror_read
+    400182: Bubba_RIG_HairBack1_Lt
+    400184: Bubba_RIG_HairBack1_Rt
+    400186: Bubba_RIG_HairBack2_Lt
+    400188: Bubba_RIG_HairBack2_Rt
+    400190: Bubba_RIG_HairFront1_Lt
+    400192: Bubba_RIG_HairFront1_Rt
+    400194: Bubba_RIG_HairFront2_Lt
+    400196: Bubba_RIG_HairFront2_Rt
+    400198: Bubba_RIG_mirror_MOVE
+    400200: Bubba_RIG_mirror_move_attach
+    400202: Bubba_RIG_MOVE
+    400204: Bubba_RIG_Root
+    400206: Bubba_RIG_Root Xtra01Nub
+    400208: Bubba_RIG_Root Xtra03Nub
+    400210: Bubba_RIG_Root Xtra04Nub
+    400212: Bubba_RIG_Root Xtra05Nub
+    400214: cheek_lt_bn
+    400216: cheek_lt_ph
+    400218: cheek_rt_bn
+    400220: cheek_rt_ph
+    400222: ctrls_pad_ph
+    400224: eye_lock_ph
+    400226: eye_lt_rotate_ph
+    400228: eye_rt_rotate_ph
+    400230: jaw_bn
+    400232: jaw_bn_end
+    400234: jaw_ctrl
+    400236: l_handnode
+    400238: lip_lt_bt_bn
+    400240: lip_lt_bt_ph
+    400242: lip_lt_corner_bn
+    400244: lip_lt_corner_ph
+    400246: lip_lt_up_bn
+    400248: lip_lt_up_ph
+    400250: lip_mid_bt_bn
+    400252: lip_mid_bt_ph
+    400254: lip_mid_up_bn
+    400256: lip_mid_up_ph
+    400258: lip_rt_bt_bn
+    400260: lip_rt_bt_ph
+    400262: lip_rt_corner_bn
+    400264: lip_rt_corner_ph
+    400266: lip_rt_up_bn
+    400268: lip_rt_up_ph
+    400270: lowerlid_lt_blink_ph
+    400272: lowerlid_lt_bn
+    400274: lowerlid_lt_bn_end
+    400276: lowerlid_lt_ph
+    400278: lowerlid_rt_blink_ph
+    400280: lowerlid_rt_bn
+    400282: lowerlid_rt_bn_end
+    400284: lowerlid_rt_ph
+    400286: mirror_rod_ctrl_attach_01
+    400288: mirror_rod_ctrl_attach_02
+    400290: mirror_rod_ctrl_attach_03
+    400292: mirror_rod_ctrl_attach_04
+    400294: mirror_rod_ctrl_attach_05
+    400296: mirror_rod_ctrl_attach_06
+    400298: mirror_rodbone_01
+    400300: mirror_rodbone_02
+    400302: mirror_rodbone_03
+    400304: mirror_rodbone_04
+    400306: mirror_rodbone_05
+    400308: nose_bn
+    400310: nose_ph
+    400312: p1_proprod_MESH
+    400314: p1_proprod_tn
+    400316: p1_rod_boat_attach
+    400318: Rod_Mesh
+    400320: rod_mirror_crtl_tn
+    400322: rod_mirror_ctrl_01
+    400324: rod_mirror_ctrl_02
+    400326: rod_mirror_ctrl_03
+    400328: rod_mirror_ctrl_04
+    400330: rod_mirror_ctrl_05
+    400332: rod_mirror_Mesh
+    400334: rod_mirror_tn
+    400336: Rod_tn
+    400338: rodbone01
+    400340: rodbone02
+    400342: rodbone03
+    400344: rodbone04
+    400346: rodbone05
+    400348: upperlid_lt_blink_ph
+    400350: upperlid_lt_bn
+    400352: upperlid_lt_bn_end
+    400354: upperlid_lt_ph
+    400356: upperlid_rt_blink_ph
+    400358: upperlid_rt_bn
+    400360: upperlid_rt_bn_end
+    400362: upperlid_rt_ph
+    2300000: p1_proprod_MESH
+    3300000: p1_proprod_MESH
+    4300000: bubba_body_mesh
+    4300002: bubba_eyes_mesh
+    4300004: p1_proprod_MESH
+    4300006: Rod_Mesh
+    4300008: rod_mirror_Mesh
+    7400000: Take 001
+    7400002: p1_idle_anim
+    7400004: p1_hook_anim
+    7400006: p1_hook_lo_anim
+    7400008: p1_struggle_anim
+    7400010: p1_struggle_lo_anim
+    7400012: p1_reel_in_anim
+    7400014: p1_reel_in_lo_anim
+    7400016: p1_idle_no_fish_anim
+    7400018: p1_nofish_to_aim_anim
+    7400020: p1_fish_to_aim_anim
+    7400022: p1_cast_aim_left_anim
+    7400024: p1_cast_shoot_left_anim
+    7400026: p1_cast_shoot_left_lo_anim
+    7400028: p1_cast_aim_anim
+    7400030: p1_cast_shoot_anim
+    7400032: p1_cast_shoot_lo_anim
+    7400034: p1_cast_aim_right_anim
+    7400036: p1_cast_shoot_right_anim
+    7400038: p1_cast_shoot_right_lo_anim
+    7400040: p1_fish_on_anim
+    7400042: p1_fish_on_lo_anim
+    7400044: p1_celebrate_anim
+    7400046: p1_celebrate_hi_anim
+    7400048: p1_fishfight_bkd_anim
+    7400050: p1_fishfight_fwd_anim
+    7400052: p1_struggle_to_fishfight_anim
+    7400054: p1_bonus_idle_anim
+    7400056: p1_bonus_idle_to_lft_anim
+    7400058: p1_bonus_idle_lft_anim
+    7400060: p1_bonus_lft_to_idle_anim
+    7400062: p1_bonus_idle_to_rt_anim
+    7400064: p1_bonus_idle_rt_anim
+    7400066: p1_bonus_rt_to_idle_anim
+    7400068: p1_bonus_bump_anim
+    7400070: p1_bonus_bump_turn_anim
+    7400072: p1_bonus_celebrate_anim
+    7400074: p1_bonus_end_anim
+    7400076: p1_tilt_anim
+    7400078: p2_idle_anim
+    7400080: p2_hook_anim
+    7400082: p2_hook_lo_anim
+    7400084: p2_struggle_anim
+    7400086: p2_struggle_lo_anim
+    7400088: p2_reel_in_anim
+    7400090: p2_reel_in_lo_anim
+    7400092: p2_idle_no_fish_anim
+    7400094: p2_nofish_to_aim_anim
+    7400096: p2_fish_to_aim_anim
+    7400098: p2_cast_aim_left_anim
+    7400100: p2_cast_shoot_left_anim
+    7400102: p2_cast_shoot_left_lo_anim
+    7400104: p2_cast_aim_anim
+    7400106: p2_cast_shoot_anim
+    7400108: p2_cast_shoot_lo_anim
+    7400110: p2_cast_aim_right_anim
+    7400112: p2_cast_shoot_right_anim
+    7400114: p2_cast_shoot_right_lo_anim
+    7400116: p2_fish_on_anim
+    7400118: p2_fish_on_lo_anim
+    7400120: p2_celebrate_anim
+    7400122: p2_celebrate_hi_anim
+    7400124: p2_fishfight_bkd_anim
+    7400126: p2_fishfight_fwd_anim
+    7400128: p2_struggle_to_fishfight_anim
+    7400130: p2_bonus_idle_anim
+    7400132: p2_bonus_idle_to_lft_anim
+    7400134: p2_bonus_idle_lft_anim
+    7400136: p2_bonus_lft_to_idle_anim
+    7400138: p2_bonus_idle_to_rt_anim
+    7400140: p2_bonus_idle_rt_anim
+    7400142: p2_bonus_rt_to_idle_anim
+    7400144: p2_bonus_bump_anim
+    7400146: p2_bonus_bump_turn_anim
+    7400148: p2_bonus_celebrate_anim
+    7400150: p2_bonus_end_anim
+    7400152: Take1
+    7400154: p2_tilt_anim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: bubba_body_mesh
+    13700002: bubba_eyes_mesh
+    13700004: Rod_Mesh
+    13700006: rod_mirror_Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: b9ef86accee6341488e2427058f668ba, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: p1_idle_anim
+      takeName: 
+      firstFrame: 420
+      lastFrame: 535
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_hook_anim
+      takeName: 
+      firstFrame: 550
+      lastFrame: 575
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_hook_lo_anim
+      takeName: 
+      firstFrame: 600
+      lastFrame: 627
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_struggle_anim
+      takeName: 
+      firstFrame: 657
+      lastFrame: 721
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_struggle_lo_anim
+      takeName: 
+      firstFrame: 751
+      lastFrame: 802
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_reel_in_anim
+      takeName: 
+      firstFrame: 832
+      lastFrame: 901
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_reel_in_lo_anim
+      takeName: 
+      firstFrame: 931
+      lastFrame: 971
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_idle_no_fish_anim
+      takeName: 
+      firstFrame: 1001
+      lastFrame: 1113
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_nofish_to_aim_anim
+      takeName: 
+      firstFrame: 1143
+      lastFrame: 1165
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_fish_to_aim_anim
+      takeName: 
+      firstFrame: 1195
+      lastFrame: 1205
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_aim_left_anim
+      takeName: 
+      firstFrame: 1235
+      lastFrame: 1255
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_shoot_left_anim
+      takeName: 
+      firstFrame: 1285
+      lastFrame: 1322
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_shoot_left_lo_anim
+      takeName: 
+      firstFrame: 1352
+      lastFrame: 1377
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_aim_anim
+      takeName: 
+      firstFrame: 1407
+      lastFrame: 1427
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_shoot_anim
+      takeName: 
+      firstFrame: 1457
+      lastFrame: 1494
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_shoot_lo_anim
+      takeName: 
+      firstFrame: 1524
+      lastFrame: 1552
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_aim_right_anim
+      takeName: 
+      firstFrame: 1582
+      lastFrame: 1597
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_shoot_right_anim
+      takeName: 
+      firstFrame: 1627
+      lastFrame: 1669
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_cast_shoot_right_lo_anim
+      takeName: 
+      firstFrame: 1699
+      lastFrame: 1730
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_fish_on_anim
+      takeName: 
+      firstFrame: 1760
+      lastFrame: 1840
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_fish_on_lo_anim
+      takeName: 
+      firstFrame: 1870
+      lastFrame: 1920
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_celebrate_anim
+      takeName: 
+      firstFrame: 1950
+      lastFrame: 2066
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_celebrate_hi_anim
+      takeName: 
+      firstFrame: 2096
+      lastFrame: 2148
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_fishfight_bkd_anim
+      takeName: 
+      firstFrame: 2178
+      lastFrame: 2186
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_fishfight_fwd_anim
+      takeName: 
+      firstFrame: 2216
+      lastFrame: 2224
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_struggle_to_fishfight_anim
+      takeName: 
+      firstFrame: 2254
+      lastFrame: 2262
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_idle_anim
+      takeName: 
+      firstFrame: 2292
+      lastFrame: 2312
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_idle_to_lft_anim
+      takeName: 
+      firstFrame: 2342
+      lastFrame: 2352
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_idle_lft_anim
+      takeName: 
+      firstFrame: 2382
+      lastFrame: 2402
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_lft_to_idle_anim
+      takeName: 
+      firstFrame: 2432
+      lastFrame: 2442
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_idle_to_rt_anim
+      takeName: 
+      firstFrame: 2472
+      lastFrame: 2482
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_idle_rt_anim
+      takeName: 
+      firstFrame: 2512
+      lastFrame: 2532
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_rt_to_idle_anim
+      takeName: 
+      firstFrame: 2562
+      lastFrame: 2572
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_bump_anim
+      takeName: 
+      firstFrame: 2603
+      lastFrame: 2632
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_bump_turn_anim
+      takeName: 
+      firstFrame: 2666
+      lastFrame: 2695
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_celebrate_anim
+      takeName: 
+      firstFrame: 2727
+      lastFrame: 2750
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_bonus_end_anim
+      takeName: 
+      firstFrame: 2783
+      lastFrame: 2872
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p1_tilt_anim
+      takeName: 
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_idle_anim
+      takeName: 
+      firstFrame: 3320
+      lastFrame: 3435
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_hook_anim
+      takeName: 
+      firstFrame: 3450
+      lastFrame: 3475
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_hook_lo_anim
+      takeName: 
+      firstFrame: 3500
+      lastFrame: 3527
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_struggle_anim
+      takeName: 
+      firstFrame: 3557
+      lastFrame: 3621
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_struggle_lo_anim
+      takeName: 
+      firstFrame: 3651
+      lastFrame: 3702
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_reel_in_anim
+      takeName: 
+      firstFrame: 3732
+      lastFrame: 3801
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_reel_in_lo_anim
+      takeName: 
+      firstFrame: 3831
+      lastFrame: 3871
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_idle_no_fish_anim
+      takeName: 
+      firstFrame: 3901
+      lastFrame: 4013
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_nofish_to_aim_anim
+      takeName: 
+      firstFrame: 4043
+      lastFrame: 4065
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_fish_to_aim_anim
+      takeName: 
+      firstFrame: 4095
+      lastFrame: 4105
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_aim_left_anim
+      takeName: 
+      firstFrame: 4482
+      lastFrame: 4497
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_shoot_left_anim
+      takeName: 
+      firstFrame: 4527
+      lastFrame: 4569
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_shoot_left_lo_anim
+      takeName: 
+      firstFrame: 4599
+      lastFrame: 4630
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_aim_anim
+      takeName: 
+      firstFrame: 4307
+      lastFrame: 4327
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_shoot_anim
+      takeName: 
+      firstFrame: 4357
+      lastFrame: 4394
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_shoot_lo_anim
+      takeName: 
+      firstFrame: 4424
+      lastFrame: 4452
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_aim_right_anim
+      takeName: 
+      firstFrame: 4135
+      lastFrame: 4155
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_shoot_right_anim
+      takeName: 
+      firstFrame: 4185
+      lastFrame: 4222
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_cast_shoot_right_lo_anim
+      takeName: 
+      firstFrame: 4252
+      lastFrame: 4277
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_fish_on_anim
+      takeName: 
+      firstFrame: 4660
+      lastFrame: 4740
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_fish_on_lo_anim
+      takeName: 
+      firstFrame: 4770
+      lastFrame: 4820
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_celebrate_anim
+      takeName: 
+      firstFrame: 4850
+      lastFrame: 4966
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_celebrate_hi_anim
+      takeName: 
+      firstFrame: 4996
+      lastFrame: 5048
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_fishfight_bkd_anim
+      takeName: 
+      firstFrame: 5078
+      lastFrame: 5086
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_fishfight_fwd_anim
+      takeName: 
+      firstFrame: 5116
+      lastFrame: 5124
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_struggle_to_fishfight_anim
+      takeName: 
+      firstFrame: 5154
+      lastFrame: 5162
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_idle_anim
+      takeName: 
+      firstFrame: 5192
+      lastFrame: 5212
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_idle_to_lft_anim
+      takeName: 
+      firstFrame: 5372
+      lastFrame: 5382
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_idle_lft_anim
+      takeName: 
+      firstFrame: 5412
+      lastFrame: 5432
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_lft_to_idle_anim
+      takeName: 
+      firstFrame: 5462
+      lastFrame: 5472
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_idle_to_rt_anim
+      takeName: 
+      firstFrame: 5242
+      lastFrame: 5252
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_idle_rt_anim
+      takeName: 
+      firstFrame: 5282
+      lastFrame: 5302
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_rt_to_idle_anim
+      takeName: 
+      firstFrame: 5332
+      lastFrame: 5342
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_bump_anim
+      takeName: 
+      firstFrame: 5503
+      lastFrame: 5532
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_bump_turn_anim
+      takeName: 
+      firstFrame: 5566
+      lastFrame: 5595
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_celebrate_anim
+      takeName: 
+      firstFrame: 5627
+      lastFrame: 5650
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_bonus_end_anim
+      takeName: 
+      firstFrame: 5683
+      lastFrame: 5772
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: p2_tilt_anim
+      takeName: 
+      firstFrame: 2900
+      lastFrame: 2901
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

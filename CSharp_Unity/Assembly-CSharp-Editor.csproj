@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\asset_renamer.cs" />
+     <Compile Include="Assets\Editor\fbx_anim_import.cs" />
+     <Compile Include="Assets\Editor\fbx_mesh_import.cs" />
+     <Compile Include="Assets\Editor\fbx_mesh_import_post.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity2017.2.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
