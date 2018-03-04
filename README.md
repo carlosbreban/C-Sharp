@@ -1,6 +1,6 @@
 # C-Sharp
 Sample C# Artist Editor Tools and Gameplay code for Unity3D 
-These tools can be found in [../CSharp_Unity/Assets/Editor/](tree/master/CSharp_Unity/Assets/Editor)
+These tools can be found in [../CSharp_Unity/Assets/Editor/](CSharp_Unity/Assets/Editor)
 
 ## Asset_Renamer
 
